@@ -1,0 +1,149 @@
+:root {
+--primary: #2563eb;
+--primary-dark: #1e40af;
+--background: #f8fafc;
+--card: #ffffff;
+--text: #111827;
+--text-light: #6b7280;
+--border: #e5e7eb;
+--danger: #dc2626;
+--success: #16a34a;
+}
+
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+
+body {
+background-color: var(--background);
+color: var(--text);
+}
+
+/* CONTAINER */
+.container {
+max-width: 1100px;
+margin: 0 auto;
+padding: 24px;
+}
+
+/* HEADER */
+.header {
+background: var(--card);
+padding: 16px 24px;
+border-bottom: 1px solid var(--border);
+margin-bottom: 24px;
+}
+
+/* CARDS */
+.card {
+background: var(--card);
+border: 1px solid var(--border);
+border-radius: 10px;
+padding: 20px;
+margin-bottom: 16px;
+}
+
+/* BUTTONS */
+.button {
+padding: 10px 14px;
+border-radius: 6px;
+border: none;
+cursor: pointer;
+font-size: 14px;
+}
+
+.button-primary {
+background: var(--primary);
+color: #fff;
+}
+
+.button-primary:hover {
+background: var(--primary-dark);
+}
+
+.button-danger {
+background: var(--danger);
+color: #fff;
+}
+
+.button-secondary {
+background: #e5e7eb;
+}
+
+/* INPUTS */
+.input {
+width: 100%;
+padding: 10px;
+border-radius: 6px;
+border: 1px solid var(--border);
+margin-bottom: 14px;
+font-size: 14px;
+}
+
+.input:focus {
+outline: none;
+border-color: var(--primary);
+}
+
+/* LABEL */
+.label {
+display: block;
+margin-bottom: 6px;
+font-size: 13px;
+color: var(--text-light);
+}
+
+/* TABLE */
+.table {
+width: 100%;
+border-collapse: collapse;
+}
+
+.table th,
+.table td {
+padding: 10px;
+border-bottom: 1px solid var(--border);
+text-align: left;
+font-size: 14px;
+}
+
+.table th {
+color: var(--text-light);
+}
+
+/* ALERT */
+.alert {
+padding: 10px;
+border-radius: 6px;
+margin-bottom: 14px;
+font-size: 14px;
+}
+
+.alert-error {
+background: #fee2e2;
+color: var(--danger);
+}
+
+.alert-success {
+background: #dcfce7;
+color: var(--success);
+}
+
+/* ACTIONS */
+.actions {
+display: flex;
+gap: 6px;
+}
+
+/* FOOTER */
+.footer {
+margin-top: 40px;
+text-align: center;
+font-size: 13px;
+color: var(--text-light);
+}
