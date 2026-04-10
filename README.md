@@ -48,4 +48,11 @@ http://localhost:3001
 cd frontend  
 cd reactproject  
 npm install  
-npm start  
+npm start
+
+# Descrição
+Os comando para rodar o servido e instalar o React e a API foram dados no terminal do vscode(ferramenta utilizada)
+
+# André Vinícius Martins de Souza Acosta de Jesus
+
+
