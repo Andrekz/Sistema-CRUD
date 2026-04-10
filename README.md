@@ -2,12 +2,12 @@
 Este projeto é um sistema web completo desenvolvido como trabalho acadêmico. Ele permite realizar operações de cadastro, listagem, edição e exclusão de usuários (CRUD).  O sistema foi desenvolvido utilizando React no frontend, Node.js com Express no backend e MySQL como banco de dados.
 
 # Tecnologias Utilizadas
-React
-Node.js
-Express
-MySQL
-JavaScript
-HTML e CSS
+- React
+- Node.js
+- Express
+- MySQL
+- JavaScript
+- HTML e CSS
 
 # Funcionalidades
 Cadastro de usuários
@@ -24,19 +24,19 @@ O backend utiliza uma API RESTful com os seguintes endpoints:
 
 GET /usuarios → Listar usuários  
 POST /usuarios → Criar novo usuário  
-PUT /usuarios/ → Atualizar usuário  
-DELETE /usuarios/ → Remover usuário  
+PUT /usuarios/:id → Atualizar usuário  
+DELETE /usuarios/:id → Remover usuário  
 
 
 # Como rodar o projeto
-1. Clonar o repositório (opção, da pra rodar apenas ao baixar os arquvivos)    
-git clone    
-2. Configurar o banco de dados  
+1. Clonar o repositório (opção, da pra rodar apenas ao baixar os arquvivos)
+2. git clone https://github.com/seu-usuario/seu-repositorio.git   
+3. Configurar o banco de dados  
 Abra o MySQL Workbench (ou outro gerenciador)  
 Crie um banco de dados (ex: crud_usuarios)  
 Importe o arquivo .sql presente no projeto  
 Verifique usuário e senha do banco no backend
-3. Rodar o backend  
+4. Rodar o backend  
 cd backend    
 npm install  
 npm start  
