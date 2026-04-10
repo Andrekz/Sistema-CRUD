@@ -36,15 +36,15 @@ Abra o MySQL Workbench (ou outro gerenciador)
 Crie um banco de dados (ex: crud_usuarios)  
 Importe o arquivo .sql presente no projeto  
 Verifique usuário e senha do banco no backend
-3. Rodar o backend
-cd backend  
+3. Rodar o backend  
+cd backend    
 npm install  
 npm start  
 
 # O backend será iniciado em:
 
 http://localhost:3001
-# 4. Rodar o frontend
+# 4. Rodar o frontend  
 cd frontend  
 cd reactproject  
 npm install  
