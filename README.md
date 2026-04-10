@@ -22,30 +22,30 @@ Paginação na listagem
 
 O backend utiliza uma API RESTful com os seguintes endpoints:
 
-GET /usuarios → Listar usuários
-POST /usuarios → Criar novo usuário
-PUT /usuarios/ → Atualizar usuário
-DELETE /usuarios/ → Remover usuário
+GET /usuarios → Listar usuários  
+POST /usuarios → Criar novo usuário  
+PUT /usuarios/ → Atualizar usuário  
+DELETE /usuarios/ → Remover usuário  
 
 
 # Como rodar o projeto
-1. Clonar o repositório
-git clone https://github.com/seu-usuario/seu-repositorio.git
-2. Configurar o banco de dados
-Abra o MySQL Workbench (ou outro gerenciador)
-Crie um banco de dados (ex: crud_usuarios)
-Importe o arquivo .sql presente no projeto
+1. Clonar o repositório    
+git clone https://github.com/seu-usuario/seu-repositorio.git    
+2. Configurar o banco de dados  
+Abra o MySQL Workbench (ou outro gerenciador)  
+Crie um banco de dados (ex: crud_usuarios)  
+Importe o arquivo .sql presente no projeto  
 Verifique usuário e senha do banco no backend
 3. Rodar o backend
-cd backend
-npm install
-npm start
+cd backend  
+npm install  
+npm start  
 
 # O backend será iniciado em:
 
 http://localhost:3001
 # 4. Rodar o frontend
-cd frontend
-cd reactproject
-npm install
-npm start
+cd frontend  
+cd reactproject  
+npm install  
+npm start  
