@@ -51,7 +51,9 @@ npm install
 npm start
 
 # Descrição
-Os comando para rodar o servido e instalar o React e a API foram dados no terminal do vscode(ferramenta utilizada)
+Os comando para rodar o servido e instalar o React e a API foram dados no terminal do vscode(ferramenta utilizada).  
+O backend deve ser iniciado antes do frontend
+Certifique-se de que o MySQL está rodando
 
 # André Vinícius Martins de Souza Acosta de Jesus
 
