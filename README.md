@@ -30,7 +30,7 @@ DELETE /usuarios/ → Remover usuário
 
 # Como rodar o projeto
 1. Clonar o repositório    
-git clone https://github.com/seu-usuario/seu-repositorio.git    
+git clone    
 2. Configurar o banco de dados  
 Abra o MySQL Workbench (ou outro gerenciador)  
 Crie um banco de dados (ex: crud_usuarios)  
