@@ -29,7 +29,7 @@ DELETE /usuarios/ → Remover usuário
 
 
 # Como rodar o projeto
-1. Clonar o repositório    
+1. Clonar o repositório (opção, da pra rodar apenas ao baixar os arquvivos)    
 git clone    
 2. Configurar o banco de dados  
 Abra o MySQL Workbench (ou outro gerenciador)  
